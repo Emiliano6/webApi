@@ -8,5 +8,6 @@ namespace webApi
         {
         }
         public DbSet<Acuario> Acuarios { get; set; }
+        public DbSet<Pecera> Peceras { get; set; }
     }
 }
